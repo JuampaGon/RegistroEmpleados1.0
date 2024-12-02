@@ -10,7 +10,5 @@ namespace RegistroEmpleados.AppMovil
             : base(handle, ownership)
         {
         }
-
-        protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
     }
 }
