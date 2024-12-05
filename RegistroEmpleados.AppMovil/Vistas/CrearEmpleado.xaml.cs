@@ -45,7 +45,7 @@ public partial class CrearEmpleado : ContentPage
 
             await Navigation.PopAsync();
         }
-        catch (Exception)
+        catch (Exception ex)
         {
 
             await DisplayAlert("Error", ex.Message, "OK");
